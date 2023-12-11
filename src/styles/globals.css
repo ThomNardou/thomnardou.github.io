@@ -1,0 +1,69 @@
+body, html {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25%;
+}
+
+#backgroundVideo {
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  filter: contrast(120%);
+  z-index: -1;
+  --mask:
+      radial-gradient(92.23px at 50% calc(100% - 127.50px),#000 99%,#0000 101%) calc(50% - 100px) 0/200px 100%,
+      radial-gradient(92.23px at 50% calc(100% + 77.50px),#0000 99%,#000 101%) 50% calc(100% - 50px)/200px 100% repeat-x;
+      -webkit-mask: var(--mask);
+              mask: var(--mask);
+  box-sizing: content-box;
+}
+
+#MainTitle {
+  position: absolute;
+  top: calc(50% - 1em);
+  font-size: 80px;
+  background: #BBCBCB;
+  background: linear-gradient(to right, #BBCBCB 10%, #9590A8 35%, #634B66 91%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.aboutMe {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.aboutMe .description{
+  width: 40%;
+  margin-right: 60px;
+}
+
+.description h2 {
+  font-size: 30px;
+}
+
+.description p {
+  line-height: 1.3;
+  text-align: justify;
+}
+
+.pfp {
+  width: 300px;
+  height: 300px;
+  background-image: url(/pfp.webp);
+  background-position: center;
+  background-size: cover;
+  border-radius: 75% 30% 30% 70% / 60% 40% 60% 40%;
+  box-shadow: 23px 22px 65px -16px rgba(0,0,0,0.75);
+  margin-left: 60px;
+}

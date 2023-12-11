@@ -1,0 +1,35 @@
+body, html {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+}
+
+#backgroundVideo {
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto;
+    z-index: -1;
+    --mask:
+        radial-gradient(92.23px at 50% calc(100% - 127.50px),#000 99%,#0000 101%) calc(50% - 100px) 0/200px 100%,
+        radial-gradient(92.23px at 50% calc(100% + 77.50px),#0000 99%,#000 101%) 50% calc(100% - 50px)/200px 100% repeat-x;
+        -webkit-mask: var(--mask);
+                mask: var(--mask);
+    box-sizing: content-box;
+}
+
+#MainTitle {
+    position: absolute;
+    top: 50%;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #BBCBCB;
+    background: linear-gradient(to right, #BBCBCB 10%, #9590A8 35%, #634B66 91%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

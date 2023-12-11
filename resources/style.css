@@ -14,6 +14,7 @@ header {
     min-height: 100%;
     width: auto; 
     height: auto;
+    filter: contrast(120%);
     z-index: -1;
     --mask:
         radial-gradient(92.23px at 50% calc(100% - 127.50px),#000 99%,#0000 101%) calc(50% - 100px) 0/200px 100%,
@@ -25,7 +26,7 @@ header {
 
 #MainTitle {
     position: absolute;
-    top: 50%;
+    top: calc(50% - 1em);
     font-size: 80px;
     font-family: Arial, Helvetica, sans-serif;
     background: #BBCBCB;

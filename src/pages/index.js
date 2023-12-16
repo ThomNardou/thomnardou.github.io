@@ -3,6 +3,7 @@ import { IoLogoCss3, IoLogoNodejs } from "react-icons/io";
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiCsharp, SiPowershell, SiVisualstudiocode, SiVisualstudio, SiGodotengine } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
+import PortfolioProject from "@/components/project";
 
 const ICON_SIZE = 80;
 
@@ -57,6 +58,10 @@ export default function Home() {
             </tr>
           </tbody>
         </table>
+      </div>
+      
+      <div className="project">
+        <PortfolioProject title={"ARPG-Godot"} params={"/ARPG_game.png"} githubLink={"https://github.com/"} description={"A simple ARPG-Game made with godot engine"} languageName={"GdScript"} languageColor={"#355570"}/>
       </div>
     </>
   )

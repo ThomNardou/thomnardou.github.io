@@ -10,7 +10,7 @@ const ICON_SIZE = 80;
 const languageTable = [
   "JavaScript",
   "GdScript",
-  "Csharp",
+  "C#",
   "SQL",
   "Php",
   "HTML",
@@ -70,11 +70,13 @@ export default function Home() {
           </tbody>
         </table>
       </div>
+
+      <h2>My Project :</h2>
       
       <div className="project">
-        <PortfolioProject title={"ARPG-Godot"} params={"/ARPG_game.png"} githubLink={"https://github.com/ThomNardou/ARPG-Godot"} description={"A simple ARPG-Game made with godot engine"} languageName={languageTable[1]} languageColor={"#355570"}/>
-        <PortfolioProject title={"ReactedBot"} params={"/discordBot.png"} githubLink={"https://github.com/ThomNardou/ReactedBot"} description={"A simple discord bot with various function"} languageName={languageTable[0]} languageColor={"#F1E05A"}/>
-        <PortfolioProject title={"P-OO_SpaceInvaders"} params={"/spaceInvaders.png"} githubLink={"https://github.com/ThomNardou/P_OO-SpaceInvaders"} description={"A Reinterpretation of the famous arcade game SpaceInvaders"} languageName={languageTable[2]} languageColor={"#178600"}/>
+        <PortfolioProject title={"ARPG-Godot"} params={"/ARPG_game.png"} githubLink={"https://github.com/ThomNardou/ARPG-Godot"} description={"A simple ARPG-Game made with godot engine"} languageName={languageTable[1]} languageColor={"#355570"} api={"none"}/>
+        <PortfolioProject title={"ReactedBot"} params={"/discordBot.png"} githubLink={"https://github.com/ThomNardou/ReactedBot"} description={"A simple discord bot with various function"} languageName={languageTable[0]} languageColor={"#F1E05A"} api={"discord.js"}/>
+        <PortfolioProject title={"P-OO_SpaceInvaders"} params={"/spaceInvaders.png"} githubLink={"https://github.com/ThomNardou/P_OO-SpaceInvaders"} description={"A Reinterpretation of the famous arcade game SpaceInvaders made in Console mode"} languageName={languageTable[2]} languageColor={"#178600"} api={"none"}/>
       </div>
     </>
   )

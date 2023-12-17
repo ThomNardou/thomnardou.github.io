@@ -107,18 +107,9 @@ table thead {
   flex-direction: column;
 }
 
-.projectCard {
-  border-bottom: solid 1px black;
-  margin: 30px 0;
-}
-
 .presentation {
   display: flex;
   align-items: center;
-}
-
-.descriptionProject {
-  margin-bottom: 40px;
 }
 
 .linkGitHub {
@@ -151,6 +142,10 @@ table thead {
   margin-right: 0.5em;
 }
 
-#image {
-  margin-bottom: 50px;
+.other {
+  margin-left: 30px;
+}
+
+.projectCard {
+  margin: 50px;
 }

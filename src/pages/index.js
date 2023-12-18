@@ -76,7 +76,7 @@ export default function Home() {
         <div className="description">
           <h2>My Projects :</h2>
           <p>
-            Throughout my educational journey, I've undertaken various projects as part of my formation. In addition to these academic endeavors, 
+            Throughout my educational journey, I have undertaken various projects as part of my formation. In addition to these academic endeavors, 
             I am eager to dedicate my free time to engaging in extra projects that will further contribute to the improvement of my skills and knowledge.
           </p>
         </div>

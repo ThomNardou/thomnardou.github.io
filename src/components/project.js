@@ -19,7 +19,7 @@ export default function PortfolioProject({ title, params, githubLink, descriptio
               </div>
             </details>
 
-            <a href={githubLink} className="linkGitHub">Lien GitHub</a>
+            <a href={githubLink} className="linkGitHub">GitHub Link</a>
           </div>
         </div>
       </div>

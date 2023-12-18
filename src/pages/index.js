@@ -76,10 +76,8 @@ export default function Home() {
         <div className="description">
           <h2>My Projects :</h2>
           <p>
-            My name is Thomas Nardou, and I am currently an appr entice developer in Switzerland.
-            My passion for the world of computing is reflected in my constant commitment to explore the many facets of programming.
-            As a fervent advocate of digital creativity, I also thrive in the field of graphic design, transforming ideas into captivating visuals.
-            I am also an avid fan of the video game minecraft.
+            Throughout my educational journey, I've undertaken various projects as part of my formation. In addition to these academic endeavors, 
+            I am eager to dedicate my free time to engaging in extra projects that will further contribute to the improvement of my skills and knowledge.
           </p>
         </div>
       </div>

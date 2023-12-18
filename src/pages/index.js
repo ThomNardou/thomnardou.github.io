@@ -86,6 +86,8 @@ export default function Home() {
         <PortfolioProject title={"ARPG-Godot"} params={"/ARPG_game.png"} githubLink={"https://github.com/ThomNardou/ARPG-Godot"} description={"A simple ARPG-Game made with godot engine"} languageName={languageTable[1]} languageColor={"#355570"} />
         <PortfolioProject title={"ReactedBot"} params={"/discordBot.png"} githubLink={"https://github.com/ThomNardou/ReactedBot"} description={"A simple discord bot with various function"} languageName={languageTable[0]} languageColor={"#F1E05A"} />
         <PortfolioProject title={"P-OO_SpaceInvaders"} params={"/spaceInvaders.png"} githubLink={"https://github.com/ThomNardou/P_OO-SpaceInvaders"} description={"A Reinterpretation of the famous arcade game SpaceInvaders made in Console mode"} languageName={languageTable[2]} languageColor={"#178600"} />
+        <PortfolioProject title={"FlappyBird"} params={"/flappyBird.png"} githubLink={"https://github.com/ThomNardou/flappyBird-Unity"} description={"A Reinterpretation of the famous game flappyBird made made with Unity"} languageName={languageTable[2]} languageColor={"#178600"} />
+        <PortfolioProject title={"P-Bull_Snake"} params={"/snakeJS.png"} githubLink={"https://github.com/ThomNardou/P-Bulle_Snake"} description={"A Reinterpretation of the famous game Snake in JS"} languageName={languageTable[0]} languageColor={"#F1E05A"} />
       </div>
     </>
   )

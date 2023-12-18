@@ -43,9 +43,9 @@ header {
   flex-wrap: wrap;
 }
 
-.aboutMe .description{
+.description{
   width: 40%;
-  margin-right: 60px;
+  margin: 0 60px;
 }
 
 .description h2 {
@@ -114,10 +114,10 @@ table thead {
 
 .linkGitHub {
   padding: 10px 20px;
-  background-color: #634B66;
+  background-color: #9590A8;
   color: white;
   text-decoration: none;
-  border-radius: 30px;
+  border-radius: 5px;
 }
 
 .linkGitHub:hover {
@@ -142,10 +142,59 @@ table thead {
   margin-right: 0.5em;
 }
 
-.other {
-  margin-left: 30px;
+details {
+  width: 30em;
+  margin: 0 auto ;
+  background: #85658a;
+  margin-bottom: 2rem;
+  box-shadow: 0 .1rem 1rem -.5rem rgba(0,0,0,.4);
+  border-radius: 5px;
+  overflow: hidden;
+  color: white;
 }
 
-.projectCard {
-  margin: 50px;
+summary {
+  padding: 1rem;
+  display: block;
+  background: #634B66;
+  padding-left: 2.2rem;
+  position: relative;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+summary:before {
+  content: '';
+  border-width: .4rem;
+  border-style: solid;
+  border-color: transparent transparent transparent #fff;
+  position: absolute;
+  top: 1.3rem;
+  left: 1rem;
+  transform: rotate(0);
+  transform-origin: .2rem 50%;
+  transition: .25s;
+}
+
+details[open] > summary:before {
+  transform: rotate(90deg);
+}
+
+details p, .name {
+  margin-left: .5rem;
+}
+
+.presentationPfp {
+  width: 300px;
+  height: 300px;
+  background-image: url(/codingWallPaper.webp);
+  background-position: center;
+  background-size: cover;
+  border-radius: 100% 25% 30% 70% / 50% 57% 60% 49%;
+}
+.projectPresentation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 60px 0;
 }

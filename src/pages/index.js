@@ -25,7 +25,7 @@ export default function Home() {
         <div className="description">
           <h2>About Me :</h2>
           <p>
-            My name is Thomas Nardou, and I am currently an appr entice developer in Switzerland.
+            My name is Thomas Nardou, and I am currently an apprentice developer in Switzerland.
             My passion for the world of computing is reflected in my constant commitment to explore the many facets of programming.
             As a fervent advocate of digital creativity, I also thrive in the field of graphic design, transforming ideas into captivating visuals.
             I am also an avid fan of the video game minecraft.
@@ -71,12 +71,23 @@ export default function Home() {
         </table>
       </div>
 
-      <h2>My Project :</h2>
-      
+      <div className="projectPresentation">
+        <div className="presentationPfp" />
+        <div className="description">
+          <h2>My Projects :</h2>
+          <p>
+            My name is Thomas Nardou, and I am currently an appr entice developer in Switzerland.
+            My passion for the world of computing is reflected in my constant commitment to explore the many facets of programming.
+            As a fervent advocate of digital creativity, I also thrive in the field of graphic design, transforming ideas into captivating visuals.
+            I am also an avid fan of the video game minecraft.
+          </p>
+        </div>
+      </div>
+
       <div className="project">
-        <PortfolioProject title={"ARPG-Godot"} params={"/ARPG_game.png"} githubLink={"https://github.com/ThomNardou/ARPG-Godot"} description={"A simple ARPG-Game made with godot engine"} languageName={languageTable[1]} languageColor={"#355570"} api={"none"}/>
-        <PortfolioProject title={"ReactedBot"} params={"/discordBot.png"} githubLink={"https://github.com/ThomNardou/ReactedBot"} description={"A simple discord bot with various function"} languageName={languageTable[0]} languageColor={"#F1E05A"} api={"discord.js"}/>
-        <PortfolioProject title={"P-OO_SpaceInvaders"} params={"/spaceInvaders.png"} githubLink={"https://github.com/ThomNardou/P_OO-SpaceInvaders"} description={"A Reinterpretation of the famous arcade game SpaceInvaders made in Console mode"} languageName={languageTable[2]} languageColor={"#178600"} api={"none"}/>
+        <PortfolioProject title={"ARPG-Godot"} params={"/ARPG_game.png"} githubLink={"https://github.com/ThomNardou/ARPG-Godot"} description={"A simple ARPG-Game made with godot engine"} languageName={languageTable[1]} languageColor={"#355570"} />
+        <PortfolioProject title={"ReactedBot"} params={"/discordBot.png"} githubLink={"https://github.com/ThomNardou/ReactedBot"} description={"A simple discord bot with various function"} languageName={languageTable[0]} languageColor={"#F1E05A"} />
+        <PortfolioProject title={"P-OO_SpaceInvaders"} params={"/spaceInvaders.png"} githubLink={"https://github.com/ThomNardou/P_OO-SpaceInvaders"} description={"A Reinterpretation of the famous arcade game SpaceInvaders made in Console mode"} languageName={languageTable[2]} languageColor={"#178600"} />
       </div>
     </>
   )

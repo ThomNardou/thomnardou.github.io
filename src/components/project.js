@@ -19,7 +19,9 @@ export default function PortfolioProject({ title, params, githubLink, descriptio
               </div>
             </details>
 
-            <a href={githubLink} className="linkGitHub">GitHub Link</a>
+            {
+              githubLink ? <a href={githubLink} className="linkGitHub" target="_Blank">GitHub Link</a> : <a className="linkGitHub" style={{ cursor: "not-allowed" }}>Private Repos</a>
+            }
           </div>
         </div>
       </div>

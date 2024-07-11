@@ -3,6 +3,7 @@ import { IoLogoCss3, IoLogoNodejs } from "react-icons/io";
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiCsharp, SiPowershell, SiVisualstudiocode, SiVisualstudio, SiGodotengine } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
+import { RiVuejsFill } from "react-icons/ri";
 import PortfolioProject from "@/components/project";
 
 const ICON_SIZE = 80;
@@ -15,7 +16,14 @@ const languageTable = [
   "Php",
   "HTML",
   "CSS",
-  "PowerShell"
+  "PowerShell",
+  "NodeJs",
+  "ExpressJs",
+  "ReactJs",
+  "Unity",
+  "VueJs",
+  "Asp.Net",
+  "MAUI",
 ]
 
 export default function Home() {
@@ -54,6 +62,7 @@ export default function Home() {
               <th>
                 <FaHtml5 size={ICON_SIZE} className="icon" />
                 <IoLogoCss3 size={ICON_SIZE} className="icon" />
+                <RiVuejsFill size={ICON_SIZE} className="icon" />
               </th>
               <th>
                 <IoLogoNodejs size={ICON_SIZE} className="icon" />
@@ -88,6 +97,10 @@ export default function Home() {
         <PortfolioProject title={"P-OO_SpaceInvaders"} params={"/spaceInvaders.png"} githubLink={"https://github.com/ThomNardou/P_OO-SpaceInvaders"} description={"A Reinterpretation of the famous arcade game SpaceInvaders made in Console mode"} languageName={languageTable[2]} languageColor={"#178600"} />
         <PortfolioProject title={"FlappyBird"} params={"/flappyBird.png"} githubLink={"https://github.com/ThomNardou/flappyBird-Unity"} description={"A Reinterpretation of the famous game flappyBird made made with Unity"} languageName={languageTable[2]} languageColor={"#178600"} />
         <PortfolioProject title={"P-Bull_Snake"} params={"/snakeJS.png"} githubLink={"https://github.com/ThomNardou/P-Bulle_Snake"} description={"A Reinterpretation of the famous game Snake in JS"} languageName={languageTable[0]} languageColor={"#F1E05A"} />
+        <PortfolioProject title={"Book_Passion-WEB"} params={"/bookPassion.png"} githubLink={""} description={"A WebSite to share your passion for reading"} languageName={languageTable[12]} languageColor={"#41B883"} />
+        <PortfolioProject title={"FastClickedApp"} params={"/fastClickedApp.png"} githubLink={"https://github.com/ThomNardou/FastClickedApp"} description={"A simple app dockerized in order to test you reflexes"} languageName={languageTable[13]} languageColor={"#178600"}/>
+        <PortfolioProject title={"FlashCard-Mobile"} params={"/FlashCards.png" } githubLink={"https://github.com/ThomNardou/FlashCard-Mobile"} description={"A mobile app to help you learn"} languageName={languageTable[14]} languageColor={"#178600"} />
+        <PortfolioProject title={"Legends-Analyzer"} params={"/LegendsAnalyzer.png"} githubLink={""} description={"A WebSite to get player info from the game league of legends"} languageName={languageTable[12]} languageColor={"#41B883"} />
       </div>
     </>
   )

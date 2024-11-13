@@ -100,35 +100,6 @@ export default function Home() {
           </table>
         </div>
 
-        <div className="crossDisciplinary">
-          <h2>Transversal skills</h2>
-          <ul>
-            <li>
-              <h4>Teamwork</h4>
-              <p>egeghsrehwrhwrjhwrjwrjwjwjwjwrjhwrjwrsrjhsrjjjjjjjjjjjjjjjjjjjjjjjjjjjjwaékfgnpWFJGWOAGHPNGIOHgPWGHwgwg</p>
-            </li>
-            <li>
-              <h4>Project management</h4>
-              <p>egeghsrehwrhwrjhwrjwrjwjwjwjwrjhwrjwrsrjhsrjjjjjjjjjjjjjjjjjjjjjjjjjjjjwaékfgnpWFJGWOAGHPNGIOHgPWGHwgwg</p>
-            </li>
-            <li>
-              <h4>Adaptability</h4>
-              <p>egeghsrehwrhwrjhwrjwrjwjwjwjwrjhwrjwrsrjhsrjjjjjjjjjjjjjjjjjjjjjjjjjjjjwaékfgnpWFJGWOAGHPNGIOHgPWGHwgwg</p>
-            </li>
-            <li>
-              <h4>Analysis</h4>
-              <p>egeghsrehwrhwrjhwrjwrjwjwjwjwrjhwrjwrsrjhsrjjjjjjjjjjjjjjjjjjjjjjjjjjjjwaékfgnpWFJGWOAGHPNGIOHgPWGHwgwg</p>
-            </li>
-            <li>
-              <h4>Like the challenge</h4>
-              <p>egeghsrehwrhwrjhwrjwrjwjwjwjwrjhwrjwrsrjhsrjjjjjjjjjjjjjjjjjjjjjjjjjjjjwaékfgnpWFJGWOAGHPNGIOHgPWGHwgwg</p>
-            </li>
-            <li>
-              <h4>Creativity</h4>
-              <p>egeghsrehwrhwrjhwrjwrjwjwjwjwrjhwrjwrsrjhsrjjjjjjjjjjjjjjjjjjjjjjjjjjjjwaékfgnpWFJGWOAGHPNGIOHgPWGHwgwg</p>
-            </li>
-          </ul>
-        </div>
       </div>
 
       <div className="projectPresentation">
